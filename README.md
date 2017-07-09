@@ -1,2 +1,2 @@
 # verBox
-verBox is a simple plat form for web developers
+verBox is a simple platform for web developers
