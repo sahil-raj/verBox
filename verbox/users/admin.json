@@ -1,0 +1,26 @@
+{
+    "userData": [
+        {
+            "name": [
+                "sahil",
+                "raj",
+                "admin"
+            ]
+        },
+        {
+            "password": [
+                "sahil-design"
+            ]
+        },
+        {
+            "userType": "admin01"
+        },
+        {
+            "alternates": {
+                "email": "zedagehelp@gmail.com",
+                "question": "what is your nick name",
+                "answer": "aaru"
+            }
+        }
+    ]
+}

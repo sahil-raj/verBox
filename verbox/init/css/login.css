@@ -1,0 +1,220 @@
+.header-all {
+    overflow: hidden !important;
+}
+
+body {
+    overflow: auto !important;
+}
+
+.main-back {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/login-signup.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden!important;
+    overflow-y: auto !important;
+}
+
+.form-screen-b {
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    background: #fff;
+    margin-top: 100px;
+    -webkit-box-shadow: 5px 5px 5px #888888;
+    box-shadow: 5px 5px 5px #888888;
+    z-index: 0 !important;
+}
+
+.form-screen-b>h3 {
+    color: #000;
+    margin-left: 15%;
+    font-weight: bold !important;
+}
+
+.form-screen-b>p {
+    color: #000;
+    margin-left: 15%;
+    font-size: 12px;
+}
+
+.input {
+    width: 70%;
+    height: 25px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    margin-left: 15%;
+    color: #000 !important;
+    padding: 3px !important;
+    font-size: 15px;
+    margin-top: 20px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 0 !important;
+}
+
+.input:focus {
+    border-bottom: 2px solid #0c30d4;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: none;
+    background: #fff;
+    outline: none !important;
+}
+
+.logo-dk {
+    height: 75px;
+    width: 75px;
+    margin-left: 10%;
+}
+
+#user-name {
+    margin-top: 50px;
+    color: #dead !important;
+}
+
+.submiter {
+    height: 30px;
+    width: 75px;
+    background-color: #0c30d4;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: static;
+    margin-top: 100px;
+    margin-left: 15%;
+    z-index: 9 !important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease
+}
+
+.submiter:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px #888888;
+    box-shadow: 5px 5px 5px #8888;
+}
+
+.submiter>p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 7px;
+    z-index: 9 !important;
+    overflow: hidden !important;
+}
+
+.not-log-moreop {
+    margin-top: 25px !important;
+    color: blue !important;
+    margin-left: 55px !important;
+    cursor: pointer;
+}
+
+
+.more-op-not-log {
+    background: whitesmoke;
+    margin-top: -25px;
+    margin-left: 180px;
+    -webkit-box-shadow: 5px 5px 5px #888888;
+    box-shadow: 5px 5px 5px #8888;
+    height: 100px;
+    width: 300px;
+    display: none;
+}
+
+.inline-not-log-divline:nth-child(1) {
+    border-bottom: 1px solid #fff !important;
+}
+
+.inline-not-log-divline {
+    cursor: pointer;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255,250,255);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.inline-not-log-divline:hover {
+    -webkit-box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: rgb(244, 200, 243) !important;
+}
+
+.inline-not-log-divline>p {
+    color: #337ab7 !important;
+    padding-left: 50px !important;
+}
+
+.im {
+  font-size: 25px !important;
+  padding-top: 5px !important;
+  padding-right: 10px !important;
+}
+
+.drer {
+  color: #337ab7 !important;
+  font-size: 20px;
+  margin-left: 10px !important;
+  cursor: pointer;
+}
+
+.fixed-not-my-a:hover {
+  -webkit-box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: rgb(244, 200, 243) !important;
+  cursor: pointer;
+}
+
+.fixed-not-my-a {
+  background: rgb(255,250,255);
+  margin-top: -25px;
+  margin-left: 220px;
+  -webkit-box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px #8888;
+  height: 50px;
+  width: 300px;
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.fixed-not-my-a>p {
+  color: #337ab7 !important;
+  padding-left: 50px !important;
+}
+
+.lo-g-err-han-for-con {
+  height: 100vh !important;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  display: none;
+  overflow: auto !important;
+}
+
+.log-g-erroer-form {
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(255,250,255);
+}
+
+.submit-buuton-err {
+  height: 50px;
+  width: 100px;
+  background-color: #337ab7;
+  margin: auto;
+  -webkit-box-shadow: 2px 5px 5px #888888;
+  box-shadow: 2px 5px 5px #8888;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
