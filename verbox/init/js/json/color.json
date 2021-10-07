@@ -5,6 +5,7 @@
         "rgb(55,55,255)",
         "cyan",
         "yellow",
+        "#FF00FF",  // ADDED NEW COLOR 
         "rgb(255,155,155)",
         "darkcyan",
         "rgb(155,255,155)",
